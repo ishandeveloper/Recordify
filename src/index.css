@@ -165,18 +165,8 @@ border-radius: 50%;
   background-color: #323232;
 }
 
-.min-max-button {
-  -webkit-app-region: no-drag;
-  background-color: blue;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-}
 
-.min-max-button:hover {
-  background-color: #323232;
-}
+
 
 .close-button {
   -webkit-app-region: no-drag;
