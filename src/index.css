@@ -84,7 +84,7 @@ border-radius: 50%;
   border-radius: 50%;
 }
 .row{
-  min-height: 95vh;
+  min-height: 90vh;
 }
 .video-container{
   display: flex;
