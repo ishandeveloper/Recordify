@@ -1,5 +1,10 @@
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
+const nativeImage = require("electron").nativeImage;
+var image = nativeImage.createFromPath(__dirname + "/src/logo.png");
+// where public folder on the root dir
+
+image.setTemplateImage(true);
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require("electron-squirrel-startup")) {
@@ -14,6 +19,8 @@ const createWindow = () => {
     height: 400,
     darkTheme: true,
     frame: false,
+    transparent: false,
+    icon: image,
     autoHideMenuBar: true,
     webPreferences: {
       nodeIntegration: true,
