@@ -3,25 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <title>Recordify!</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="index.css" />
+  <!-- bootstrap css cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css" />
     <script defer src="render.js"></script>
   </head>
   <body class="content">
-    <h1>⚡ Electron Screen Recorder</h1>
+    <div class="row">
+      <div class="col-md-8">
+        <video>
+        </video>
+      </div>
+      <div class="buttons col-md-4">
+        <button id="startBtn" class="button"><i class="fas fa-circle"></i>
+</button>
+        <button id="stopBtn" class="button"><i class="fas fa-square"></i></button>
+        <hr>
+        <button id="videoSelectBtn" class="button video-button">
+          Choose a Video Source
+        </button>
+      </div>
+    </div>
 
-    <video></video>
-
-    <button id="startBtn" class="button is-primary">Start</button>
-    <button id="stopBtn" class="button is-warning">Stop</button>
-
-    <hr />
-
-    <button id="videoSelectBtn" class="button is-text">
-      Choose a Video Source
-    </button>
   </body>
 </html>
