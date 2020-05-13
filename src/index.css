@@ -84,7 +84,8 @@ border-radius: 50%;
   border-radius: 50%;
 }
 .row{
-  min-height: 90vh;
+  z-index: -10;
+  min-height: 95vh;
 }
 .video-container{
   display: flex;
@@ -102,6 +103,7 @@ border-radius: 50%;
 
 .title-bar {
   position: fixed;
+  z-index: 100;
   top: 0;
   -webkit-app-region: drag;
   margin: 0;
