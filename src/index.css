@@ -154,9 +154,12 @@ border-radius: 50%;
 
 .minimize-button {
   -webkit-app-region: no-drag;
-  background-color: green;
-  margin-left: 10px;
-  margin-right: 10px;
+  border-radius: 50px;
+  border: 0px;
+  background: #2c2c2c;
+  margin: 5px 10px;
+  box-shadow: 7px 7px 13px #1e1e1e;
+  cursor:pointer;
   width: 25px;
   height: 25px;
 }
@@ -170,13 +173,27 @@ border-radius: 50%;
 
 .close-button {
   -webkit-app-region: no-drag;
-  background-color: red;
-  margin-left: 10px;
-  margin-right: 10px;
+  border-radius: 50px;
+  border: 0px;
+  background: #2c2c2c;
+  margin: 5px 10px;
+  cursor:pointer;
+  box-shadow: 7px 7px 13px #1e1e1e;;
   width: 25px;
   height: 25px;
 }
 
 .close-button:hover {
   background-color: #323232;
+}
+.hero-name{
+  text-align: left;
+  margin:5px 5px;
+  line-height: 0.85em;
+  font-weight: bold;
+}
+.ishan{
+  margin-top: -5px;
+  font-size: 0.6em;
+  font-weight: lighter;
 }
