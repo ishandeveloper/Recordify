@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/based%20on-electron.js-blue?style=for-the-badge&logo=electron" width="150px">
+<img src="https://img.shields.io/badge/based%20on-electron.js-blue?style=for-the-badge&logo=electron" height="25px">
 <br><br>
 <img src="screenshots/hero.png" width="100%">
 
