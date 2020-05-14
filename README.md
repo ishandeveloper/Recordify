@@ -1,5 +1,4 @@
-<img src="http://hits.dwyl.com/ishandeveloper/Recordify.svg" height="20px">
-<img src="https://img.shields.io/badge/based%20on-electron.js-blue?style=for-the-badge&logo=electron" height="20px">
+<img src="https://img.shields.io/badge/based%20on-electron.js-blue?style=for-the-badge&logo=electron" width="150px">
 <br><br>
 <img src="screenshots/hero.png" width="100%">
 
