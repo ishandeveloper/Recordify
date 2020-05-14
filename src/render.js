@@ -25,7 +25,9 @@ const startBtn = document.getElementById("startBtn");
 startBtn.onclick = (e) => {
   mediaRecorder.start();
   startBtn.classList.add("is-danger");
-  startBtn.innerText = "Recording";
+  document.querySelector(".fa-circle").classList.add("is-active");
+  stopBtn.disabled = false;
+  startBtn.disabled = true;
 };
 
 const stopBtn = document.getElementById("stopBtn");
@@ -33,7 +35,9 @@ const stopBtn = document.getElementById("stopBtn");
 stopBtn.onclick = (e) => {
   mediaRecorder.stop();
   startBtn.classList.remove("is-danger");
-  startBtn.innerText = "Start";
+  document.querySelector(".fa-circle").classList.remove("is-active");
+  stopBtn.disabled = true;
+  startBtn.disabled = false;
 };
 
 const videoSelectBtn = document.getElementById("videoSelectBtn");

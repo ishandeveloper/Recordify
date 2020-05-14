@@ -15,7 +15,7 @@ body {
 
 video {
   width: 100%;
-  max-height: 80%;
+  max-height: 100%;
   background: url('video.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -32,6 +32,7 @@ body {
  color:white;
  padding:5px 10px;
  border: 1px solid #2c2c2c;
+ outline:none;
 border-radius: 0px;
 background: #2c2c2c;
 margin: 5px 10px;
@@ -41,6 +42,8 @@ box-shadow: 7px 7px 13px #1e1e1e,
 
 .video-button{
   font-size: 0.8em;
+  outline: none;
+  cursor: pointer;
   padding:5px 5px;
 }
 
@@ -76,12 +79,19 @@ box-shadow: 7px 7px 13px #1e1e1e,
 #startBtn{
 border-radius: 50%;
 color: #e74c3c;
+cursor: pointer;
+outline: none;
 border-radius: 50%;
 }
 #stopBtn {
   border-radius: 50%;
+  cursor: pointer;
   color: #e74c3c;
+  outline: none;
   border-radius: 50%;
+}
+#videoSelectBtn{
+  outline: none;
 }
 .row{
   z-index: -10;
@@ -196,4 +206,13 @@ border-radius: 50%;
   margin-top: -5px;
   font-size: 0.6em;
   font-weight: lighter;
+}
+.is-danger{
+  border-radius: 50%;
+  background: #e74c3c;
+  color:black;
+  box-shadow: none;
+}
+.is-active{
+  color:black!important;
 }
